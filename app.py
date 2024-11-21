@@ -100,7 +100,7 @@ def search_users(user_query):
         'User-Agent': 'clubhouse/304 (iPhone; iOS 14.4; Scale/2.00)',
         'Connection': 'close',
         'Content-Type': 'application/json; charset=utf-8',
-        'Authorization': 'Token 1fee1421fc6dae1f6e632edc722898ed51bb3638'  # Replace with your token
+        'Authorization': 'Token 71d83ef4c8c92e7a00d5a75cec4a0786cfa37bec'  # Replace with your token
     }
     data = {
         "cofollows_only": False,
@@ -130,7 +130,7 @@ def get_user_profile(user_id):
         'User-Agent': 'clubhouse/304 (iPhone; iOS 14.4; Scale/2.00)',
         'Connection': 'close',
         'Content-Type': 'application/json; charset=utf-8',
-        'Authorization': 'Token 1fee1421fc6dae1f6e632edc722898ed51bb3638'  # Replace with your token
+        'Authorization': 'Token 71d83ef4c8c92e7a00d5a75cec4a0786cfa37bec'  # Replace with your token
     }
     
     data = {
